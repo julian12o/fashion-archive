@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,8 +10,9 @@
   <style>
     .carousel-inner img {
       height: 300px;
-      
+
     }
+
     .custom-card {
       border-radius: 0.5rem;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,230 +21,233 @@
     }
   </style>
 </head>
+
 <body>
 
-<!-- Bootstrap Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fashion Archive</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Hero Section -->
-<div class="container-fluid p-5 bg-dark text-white text-center">
-  <h1>Welcome to The Fashion Archive</h1>
-  <p>Curated fashion pieces designed for authenticity and style.</p>
-</div>
-
-<!-- Bootstrap Grid for Features -->
-<div class="container mt-4">
-  <div class="row text-center">
-    <div class="col-md-3"><h4>Timeless</h4></div>
-    <div class="col-md-3"><h4>Iconic</h4></div>
-    <div class="col-md-3"><h4>Reimagined</h4></div>
-    <div class="col-md-3"><h4>Curated</h4></div>
-  </div>
-</div>
-
-
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4  text-center">
-      <h2>Authenticity/Buying</h2>
-      <p>At The Fashion Archive, we offer more than just curated pieces—we provide a trusted platform for fashion
-        enthusiasts to authenticate, consign, and sell their garments with confidence. Our expert team carefully
-        examines each item to ensure authenticity, condition, and value, specializing in high-end labels such as
-        Balenciaga, Maison Margiela, Supreme, YSL, Rick Owens, and more. Whether you’re looking to have your vintage
-        designer pieces verified or ready to part with a rare find, we make the process seamless and transparent. From
-        streetwear collectors to luxury fashion aficionados, our service allows customers to not only shop but also
-        contribute to the archive—keeping iconic pieces in circulation and giving them a second life through a
-        community that values authenticity, style, and sustainability.</p>
-    </div>
-    <div class="col-sm-4  text-center">
-      <h2>About the Cafe</h2>
-      <p>Tucked within The Fashion Archive is a sleek, in-house coffee bar—Archive Café—designed as a stylish retreat
-        for shoppers and creatives alike. Blending seamlessly with the boutique’s minimalist aesthetic, the café
-        offers a curated menu of artisanal coffee, matcha, and specialty drinks crafted with the same attention to
-        detail as the fashion collection. With vintage furniture, soft lighting, and a rotating selection of
-        independent magazines and art books, it’s the perfect space to pause, reflect, and take in the atmosphere.
-        Whether you're sipping an espresso while browsing lookbooks or meeting a friend to talk design and culture,
-        Archive Café creates a sense of community within the fashion space—making it more than a store, but a
-        destination.</p>
-    </div>
-    <div class="col-sm-4  text-center">
-      <h2>Brands</h2>
-      <p>Balenciaga, Maison Margiela, Supreme, Yves Saint Laurent (YSL), Rick Owens, Comme des Garçons, Chanel, Dior,
-        Vivienne Westwood, Jean Paul Gaultier, Prada, Raf Simons, Gucci, Helmut Lang, Alexander McQueen, Issey Miyake,
-        Off-White, Vetements, Tom Ford, Versace,Fendi, Givenchy, Valentino, Miu Miu, Bottega Veneta, Maison Kitsuné,
-        Stella McCartney, DSquared2, MSGm, A.P.C. (Atelier de Production et de Création), Sandro, Tods, Loewe, Acne
-        Studios, Goyard, Celine, Burberry, Sacai, Balmain, and Etnies. These brands represent a mix of luxury fashion,
-        streetwear, and avant-garde designers, further enriching the landscape of the fashion industry.</p>
-    </div>
-  </div>
-</div>
-<!-- Bootstrap Carousel -->
-<div class="container mt-5">
-  <h2 class="text-center">Featured Products</h2>
-  <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active"><img src="fit1.jpg" class="d-block w-100"></div>
-      <div class="carousel-item"><img src="fit2.jpg" class="d-block w-100"></div>
-      <div class="carousel-item"><img src="fit3.jpg" class="d-block w-100"></div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
-</div>
-
-<!-- Cards for Staff Showcase -->
-<div class="container mt-5">
-  <h2 class="text-center">Meet Our Team</h2>
-  <div class="row">
-    <div class="col-md-6">
-      <div class="card custom-card">
-        <img src="profile.jpg" alt="Julian" class="img-fluid">
-        <h3>Julian - Founder</h3>
-        <p>Leading the creative vision of The Fashion Archive.</p>
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fashion Archive</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="card custom-card">
-        <img src="profile.jpg" alt="Silver" class="img-fluid">
-        <h3>Silver - Designer</h3>
-        <p>Bringing innovation and style to every collection.</p>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container-fluid p-5 bg-secondary text-dark text-center">
+    <h1>Welcome to The Fashion Archive</h1>
+    <p>Curated fashion pieces designed for authenticity and style.</p>
+  </div>
+
+  <!-- Bootstrap Grid for Features -->
+  <div class="container mt-4">
+    <div class="row text-center">
+      <div class="col-md-3">
+        <h4>Timeless</h4>
+      </div>
+      <div class="col-md-3">
+        <h4>Iconic</h4>
+      </div>
+      <div class="col-md-3">
+        <h4>Reimagined</h4>
+      </div>
+      <div class="col-md-3">
+        <h4>Curated</h4>
       </div>
     </div>
   </div>
-</div>
-
-<!-- Call-to-Action Button -->
-<div class="container mt-5 text-center">
-  <div class="alert alert-danger">
-    <h2>Stock is moving fast—shop now!</h2>
-    <button class="btn btn-primary btn-lg">Start Shopping</button>
-  </div>
-</div>
-<!-- Bootstrap 5 Carousel -->
-<div id="demo" class="carousel slide mt-5 mx-auto" data-bs-ride="carousel">
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-bs-target="#demo" data-bs-slide-to="0" class="active"></li>
-    <li data-bs-target="#demo" data-bs-slide-to="1"></li>
-    <li data-bs-target="#demo" data-bs-slide-to="2"></li>
-  </ul>
-  <div class="  text-center">
-    <h2>Our cafe</h2>
-  </div>
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="cafe 1.jpeg" alt="fit1" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="cafe 2.jpeg" alt="fit2" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="cafe 3.jpeg" alt="fit3" class="d-block w-100">
-    </div>
-  </div>
 
 
-  <!-- Left and right controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  </button>
-</div>
-</div>
-</div>
-</div>
-<div class="alert alert-danger text-center" role=" alert">
-<H1>The bagels are getting cold, come on and hurry!</H1>
-</div>
-  <!-- Bootstrap 5 Carousel -->
-  <div id="demo2" class="carousel slide mt-5 mx-auto" data-bs-ride="carousel">
-    <!-- Indicators -->
-    <ul class="carousel-indicators">
-      <li data-bs-target="#demo2" data-bs-slide-to="0" class="active"></li>
-      <li data-bs-target="#demo2" data-bs-slide-to="1"></li>
-      <li data-bs-target="#demo2" data-bs-slide-to="2"></li>
-    </ul>
-    <div class="  text-center">
-      <h2>Our store:</h2>
-      <!-- The slideshow -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4  text-center bg-secondary">
+        <h2>Authenticity/Buying</h2>
+        <p>At The Fashion Archive, we offer more than just curated pieces—we provide a trusted platform for fashion
+          enthusiasts to authenticate, consign, and sell their garments with confidence. Our expert team carefully
+          examines each item to ensure authenticity, condition, and value, specializing in high-end labels such as
+          Balenciaga, Maison Margiela, Supreme, YSL, Rick Owens, and more. Whether you’re looking to have your vintage
+          designer pieces verified or ready to part with a rare find, we make the process seamless and transparent. From
+          streetwear collectors to luxury fashion aficionados, our service allows customers to not only shop but also
+          contribute to the archive—keeping iconic pieces in circulation and giving them a second life through a
+          community that values authenticity, style, and sustainability.</p>
+      </div>
+
+      <div class="col-sm-4  text-center bg-secondary">
+        <h2>About the Cafe</h2>
+        <p>Tucked within The Fashion Archive is a sleek, in-house coffee bar—Archive Café—designed as a stylish retreat
+          for shoppers and creatives alike. Blending seamlessly with the boutique’s minimalist aesthetic, the café
+          offers a curated menu of artisanal coffee, matcha, and specialty drinks crafted with the same attention to
+          detail as the fashion collection. With vintage furniture, soft lighting, and a rotating selection of
+          independent magazines and art books, it’s the perfect space to pause, reflect, and take in the atmosphere.
+          Whether you're sipping an espresso while browsing lookbooks or meeting a friend to talk design and culture,
+          Archive Café creates a sense of community within the fashion space—making it more than a store, but a
+          destination.</p>
+      </div>
+      <div class="col-sm-4  text-center bg-secondary">
+        <h2>Brands</h2>
+        <p>Balenciaga, Maison Margiela, Supreme, Yves Saint Laurent (YSL), Rick Owens, Comme des Garçons, Chanel, Dior,
+          Vivienne Westwood, Jean Paul Gaultier, Prada, Raf Simons, Gucci, Helmut Lang, Alexander McQueen, Issey Miyake,
+          Off-White, Vetements, Tom Ford, Versace,Fendi, Givenchy, Valentino, Miu Miu, Bottega Veneta, Maison Kitsuné,
+          Stella McCartney, DSquared2, MSGm, A.P.C. (Atelier de Production et de Création), Sandro, Tods, Loewe, Acne
+          Studios, Goyard, Celine, Burberry, Sacai, Balmain, and Etnies. These brands represent a mix of luxury fashion,
+          streetwear, and avant-garde designers, further enriching the landscape of the fashion industry.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap Carousel -->
+  <div class="container mt-5">
+    <h2 class="text-center">Featured Products</h2>
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="fashion archive 3.jpg" alt="fit1" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-          <img src="fashion archive 2.jpg" alt="fit2" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-          <img src="fashion archive 1.jpg" alt="fit3" class="d-block w-100">
-        </div>
+        <div class="carousel-item active"><img src="fit1.jpg" class="d-block w-100"></div>
+        <div class="carousel-item"><img src="fit2.jpg" class="d-block w-100"></div>
+        <div class="carousel-item"><img src="fit3.jpg" class="d-block w-100"></div>
       </div>
-
-
-      <!-- Left and right controls -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
       </button>
     </div>
   </div>
+  <!-- Call-to-Action Button -->
   <div class="container mt-5 text-center">
+    <div class="alert bg-secondary">
+      <h2>Stock is moving fast—shop now!</h2>
+      <button class="btn btn-primary btn-dark btn-lg">Start Shopping</button>
+    </div>
+  </div>
+
+  <!-- Cards for Staff Showcase -->
+  <div class="container mt-5">
+    <h2 class="text-center">Meet Our Team</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card custom-card bg-secondary">
+          <img src="profile.jpg" alt="Julian" class="img-fluid">
+          <h3>Julian - Founder</h3>
+          <p>Leading the creative vision of The Fashion Archive. Handles the store with care. Provides funding for each
+            peice</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card custom-card bg-secondary">
+          <img src="profile.jpg" alt="Silver" class="img-fluid">
+          <h3>Silver - Designer</h3>
+          <p>Bringing innovation and style to every collection. Approves, selects, and authenicates each peice to be
+            sold and be bought.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card custom-card bg-secondary">
+          <img src="profile.jpg" alt="Julian" class="img-fluid">
+          <h3>Ekansh - Cashier</h3>
+          <p>Works at the cashier and make sures to treat every customer respectfully and fairly</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card custom-card bg-secondary">
+          <img src="profile.jpg" alt="Silver" class="img-fluid">
+          <h3>Silver - Designer</h3>
+          <p>Bringing innovation and style to every collection. Approves, selects, and authenicates each peice to be
+            sold and be bought.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Carousel -->
+  <div class="container mt-5">
+    <h2 class="text-center">Our Cafe</h2>
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active"><img src="cafe 3.jpeg" class="d-block w-100"></div>
+        <div class="carousel-item"><img src="cafe 1.jpeg" class="d-block w-100"></div>
+        <div class="carousel-item"><img src="cafe 2.jpeg" class="d-block w-100"></div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Call-to-Action Button -->
+  <div class="container mt-5 text-center">
+    <div class="alert bg-secondary">
+      <h2>Order food and drinks now!</h2>
+      <button class="btn btn-primary btn-dark btn-lg">Start ordering</button>
+    </div>
+  </div>
+  </div>
+  <!-- Bootstrap Carousel -->
+  <div class="container mt-5">
+    <h2 class="text-center">Our Store</h2>
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active"><img src="fashion archive 1.jpg" class="d-block w-100"></div>
+        <div class="carousel-item"><img src="fashion archive 2.jpg" class="d-block w-100"></div>
+        <div class="carousel-item"><img src="fashion archive 3.jpg" class="d-block w-100"></div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+
+  <div class="container mt-5 text-center bg-secondary">
     <h2>Location:</h2>
     <p>The Fashion Archive 317 West Hamilton Avenue New York, NY 10012 United States</p>
- 
+    <h3>Want to apply for a position?</h3>
+    <p>To apply to showcase your talents with The Fashion Archive, a brand dedicated to selling carefully curated
+      clothing, please submit an application that highlights your unique style and vision. Begin by visiting our
+      website, where you’ll find an “Apply” section specifically designed for potential collaborators. Fill out a
+      brief form detailing your experience in fashion, your favorite influences, and how you envision contributing
+      to our brand’s aesthetic. We encourage you to include a digital portfolio showcasing your previous work,
+      whether that be styling, design, or fashion photography. If you have a social media presence that reflects
+      your fashion sensibilities, please provide your handles as well. We are excited to discover fresh perspectives
+      and innovative ideas that align with our mission of bringing timeless fashion pieces to our community!</p>
+  </div>
+  </div>
 
 
-  <h3>Want to apply for a position?</h3>
-  <p>To apply to showcase your talents with The Fashion Archive, a brand dedicated to selling carefully curated
-    clothing, please submit an application that highlights your unique style and vision. Begin by visiting our
-    website, where you’ll find an “Apply” section specifically designed for potential collaborators. Fill out a
-    brief form detailing your experience in fashion, your favorite influences, and how you envision contributing
-    to our brand’s aesthetic. We encourage you to include a digital portfolio showcasing your previous work,
-    whether that be styling, design, or fashion photography. If you have a social media presence that reflects
-    your fashion sensibilities, please provide your handles as well. We are excited to discover fresh perspectives
-    and innovative ideas that align with our mission of bringing timeless fashion pieces to our community!</p>
-</div>
-</div>
-
-
-<!-- Bootstrap Contact Form -->
-<div class="container mt-5">
-  <h2 class="text-center">Stay Connected</h2>
-  <form class="p-4 bg-light">
-    <div class="mb-3">
-      <label class="form-label">Name</label>
-      <input type="text" class="form-control" placeholder="Enter your name">
-    </div>
-    <div class="mb-3">
-      <label class="form-label">Email</label>
-      <input type="email" class="form-control" placeholder="Enter your email">
-    </div>
-    <button class="btn btn-success">Subscribe</button>
-  </form>
-</div>
+  <!-- Bootstrap Contact Form -->
+  <div class="container mt-5 bg-secondary">
+    <h2 class="text-center">Stay Connected</h2>
+    <form class="p-4 bg-light">
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Enter your email">
+      </div>
+      <button class="btn btn-success">Subscribe</button>
+    </form>
+  </div>
 
 </body>
+
 </html>
