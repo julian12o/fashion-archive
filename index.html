@@ -10,7 +10,8 @@
   <style>
     .carousel-inner img {
       height: 300px;
-
+      object-fit: cover;
+      width: 100%;
     }
 
     .custom-card {
@@ -21,6 +22,7 @@
     }
   </style>
 </head>
+
 
 <body>
 
@@ -42,6 +44,9 @@
     </div>
   </nav>
 
+ 
+  
+      
   <!-- Hero Section -->
   <div class="container-fluid p-5 bg-secondary text-dark text-center">
     <h1>Welcome to The Fashion Archive</h1>
@@ -103,24 +108,41 @@
       </div>
     </div>
   </div>
-  <!-- Bootstrap Carousel -->
   <div class="container mt-5">
     <h2 class="text-center">Featured Products</h2>
-    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active"><img src="fit1.jpg" class="d-block w-100"></div>
-        <div class="carousel-item"><img src="fit2.jpg" class="d-block w-100"></div>
-        <div class="carousel-item"><img src="fit3.jpg" class="d-block w-100"></div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="fit1.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Outfit 1</h5>
+       
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="fit2.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Outfit 2</h5>
+         
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="fit3.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Outfit 3</h5>
+        
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <!-- Call-to-Action Button -->
   <div class="container mt-5 text-center">
     <div class="alert bg-secondary">
       <h2>Stock is moving fast—shop now!</h2>
@@ -163,7 +185,7 @@
       <div class="col-md-6">
         <div class="card custom-card bg-secondary">
           <img src="profile.jpg" alt="Silver" class="img-fluid">
-          <h3>Silver - Designer</h3>
+          <h3>Dilpreet - </h3>
           <p>Bringing innovation and style to every collection. Approves, selects, and authenicates each peice to be
             sold and be bought.</p>
         </div>
@@ -174,16 +196,16 @@
   <!-- Bootstrap Carousel -->
   <div class="container mt-5">
     <h2 class="text-center">Our Cafe</h2>
-    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="productCarousel2" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active"><img src="cafe 3.jpeg" class="d-block w-100"></div>
         <div class="carousel-item"><img src="cafe 1.jpeg" class="d-block w-100"></div>
         <div class="carousel-item"><img src="cafe 2.jpeg" class="d-block w-100"></div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
@@ -200,16 +222,16 @@
   <!-- Bootstrap Carousel -->
   <div class="container mt-5">
     <h2 class="text-center">Our Store</h2>
-    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="productCarousel3" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active"><img src="fashion archive 1.jpg" class="d-block w-100"></div>
         <div class="carousel-item"><img src="fashion archive 2.jpg" class="d-block w-100"></div>
         <div class="carousel-item"><img src="fashion archive 3.jpg" class="d-block w-100"></div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel3" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel3" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
